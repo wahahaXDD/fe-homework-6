@@ -1,0 +1,118 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.btn.btn-primary {
+  line-height: 54px;
+}
+
+header > * {
+  z-index: 1;
+}
+
+.brand {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+section.container-fluid {
+  position: relative;
+}
+
+.slogan-block {
+  height: 800px;
+  margin-top: -74px;
+  z-index: -1;
+}
+
+.slogan {
+  font-size: 3rem;
+  line-height: 64px;
+  color: #121212;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+}
+
+.slogan-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-image: url('../../images/slogan-background.webp');
+  background-position-x: 42%;
+  background-size: cover;
+}
+
+.author {
+  height: 400px;
+  background-image: url('../../images/bg-author.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+
+  .author-goal {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  .author-name {
+    font-size: 1.5rem;
+  }
+}
+
+.product-list {
+  li {
+    list-style-type: none;
+  }
+  .card {
+    border: none;
+    img {
+      object-fit: cover;
+      height: 350px;
+      max-width: 100%;
+    }
+
+    .on-sale{
+      font-size: 14px;
+      line-height: 16px;
+      top: 16px;
+      right: 16px;
+    }
+
+    .card-title{
+      font-size: 24px;
+      line-height: 28px;
+    }
+
+    .card-text{
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}
+
+.subscribe {
+  height: 400px;
+  background-image: url('../../images/subscribe.jpg');
+  background-size: cover;
+  background-position-y: 50%;
+
+  .subscribe-text {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  input.transparent-input {
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+}
+
+footer.policy-link {
+  background-color: #000000;
+}
